@@ -1,0 +1,14 @@
+html, body, h1, h2, h3, p,
+ul, ol, li, div, a,
+img, section, header {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: fantasy;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  display: block;
+}
