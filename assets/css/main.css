@@ -6,6 +6,7 @@
 #main p {
   width: 855px;
 }
+
 #main section {
   display: flex;
   flex-direction: column;
