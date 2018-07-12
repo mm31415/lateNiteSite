@@ -11,4 +11,10 @@ img, section, header {
   list-style: none;
   list-style-type: none;
   display: block;
+  color: inherit;
+}
+
+canvas {
+  display: block;
+  margin: 0;
 }

@@ -1,0 +1,9 @@
+#nav-header {
+  /* display: flex; */
+  display: none;
+  justify-content: space-between;
+}
+
+#nav-right-ul {
+  display: flex;
+}
