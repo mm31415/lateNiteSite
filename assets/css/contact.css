@@ -1,0 +1,14 @@
+#main #contact {
+  background: black;
+}
+
+#contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-links a {
+  font-size: 34px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
