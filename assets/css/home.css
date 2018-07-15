@@ -1,7 +1,8 @@
 #home #name {
   text-align: center;
   position: absolute;
-  top: 25%;
+  top: 15%;
+  color: white;
 }
 
 #name h2 {
@@ -19,7 +20,7 @@
   /* outline: 1px solid yellow; */
   text-decoration: underline;
   -webkit-animation: outliner 2.5s infinite;
-  animation: outliner 2.5s infinite;
+  animation: outliner 2.3s infinite;
 }
 
 @-webkit-keyframes outliner {

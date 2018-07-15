@@ -1,13 +1,21 @@
 #nav-header {
   display: flex;
+  color: white;
+  background: black;
+  border-bottom: 3px solid gray;
   justify-content: space-around;
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 #nav-header h1 {
-  font-size: 28px;
+  font-size: 32px;
+  margin-top: 0;
 }
 
 #nav-header-right {
   display: flex;
+  font-size: 32px;
 }
