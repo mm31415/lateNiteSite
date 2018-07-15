@@ -1,9 +1,13 @@
 #nav-header {
-  /* display: flex; */
-  display: none;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
 }
 
-#nav-right-ul {
+#nav-header h1 {
+  font-size: 28px;
+}
+
+#nav-header-right {
   display: flex;
 }
