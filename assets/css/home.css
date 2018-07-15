@@ -13,28 +13,25 @@
   padding: 10px 25px;
   font-size: 28px;
   border: 2px solid white;
-  /* transition-delay: 1s; */
 }
 
 #name a:hover {
-  /* outline: 1px solid yellow; */
   text-decoration: underline;
-  -webkit-animation: outliner 2.5s infinite;
+
+  -webkit-animation: outliner 2.3s infinite;
   animation: outliner 2.3s infinite;
 }
 
 @-webkit-keyframes outliner {
   50% {
-    /* color: rgba(255, 255, 0, 0.75); */
-    background: rgba(255, 255, 0, 0.1);
+    background: rgba(162, 211, 204, 0.3);
     box-shadow:1px 1px 13px 1px rgba(255, 255, 0, 1.0);
   }
 }
 
 @keyframes outliner {
   50% {
-    /* color: rgba(255, 255, 0, 0.75); */
-    background: rgba(255, 255, 0, 0.1);
+    background: rgba(162, 211, 204, 0.3);
     box-shadow:1px 1px 13px 1px rgba(255, 255, 0, 1.0);
   }
 
