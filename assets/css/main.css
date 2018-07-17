@@ -1,9 +1,14 @@
-#main section {
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 110vh;
-  position: relative;
+}
+
+@media screen and (max-height: 740px) {
+  section {
+    height: 815px;
+  }
 }
 
 #main h1 {

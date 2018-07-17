@@ -1,6 +1,7 @@
 #main #contact {
   background: black;
   height: 100vh;
+  min-height: 500px;
   color: white;
   font-weight: 700;
 }
