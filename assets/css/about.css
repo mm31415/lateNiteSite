@@ -1,8 +1,40 @@
 #about {
   color: black;
   background: rgb(162, 211, 204);
+  font-weight: 700;
 }
 
-#about-quote {
+#headshot {
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  height: 200px;
+}
+
+#about span {
+  display: block;
+}
+
+#about a {
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+#about a:hover {
+  font-weight: 400;
+  font-style: italic;
+}
+
+#skills {
   text-align: center;
+  margin-top: 20px;
+}
+
+#skill-list {
+  margin-top: 10px;
+}
+
+#skills li {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
 }

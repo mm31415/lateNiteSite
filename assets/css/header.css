@@ -2,12 +2,13 @@
   display: flex;
   color: white;
   background: black;
-  border-bottom: 3px solid gray;
+  border-bottom: 3px solid rgba(255, 255, 0, 1.0);
   justify-content: space-around;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10;
+  font-weight: 400;
 }
 
 #nav-header h1 {
@@ -17,5 +18,20 @@
 
 #nav-header-right {
   display: flex;
+  font-size: 28px;
+}
+
+#nav-header-right li {
+  margin-right: 8px;
+}
+
+#nav-header-right a:hover {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.highlight {
+  color: rgba(255, 255, 0, 1.0);
+  font-weight: 700;
   font-size: 32px;
 }

@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>lateNightJavaProductions</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script type="text/javascript" src="./lib/canvas.js"></script>
     <script type="text/javascript" src="./lib/scrolling.js"></script>
@@ -34,31 +36,46 @@
           <h1>lateNightProductions</h1>
         </div>
         <ul id="nav-header-right">
-          <li><a id="home-btn" class="highlight" href="#">Home |</a></li>
-          <li><a id="about-btn" href="#">About |</a></li>
+          <li><a id="home-btn" class="highlight" href="#">Home</a></li>
+          <li><a id="about-btn" href="#">About</a></li>
           <!-- <li><a id="projects-btn" href="#">Projects |</a></li>
           <li><a id="music-btn" href="#">Music |</a></li> -->
-          <li><a id="contact-btn" href="#">Contact |</a></li>
+          <li><a id="contact-btn" href="#">Contact</a></li>
         </ul>
       </nav>
 
       <section id="about">
         <h1>| About |</h1>
-        <p id="bio-skills">
+        <img id="headshot" src="./assets/images/headshot.jpeg" />
+        <a href="./assets/images/markResumeTech.pdf">View Resume</a>
+        <p id="bio">
+          After having a successful career as a contracted musician and private
+          instructor, I decided I needed a change.  I packed a sandwich and moved
+          to NYC in pursuit of a career in software development.
+        </p>
+        <p id="about-quote">
+          <span>My Mantra: "Life sucks, you suck, deal with it."</span>
+          <span>Ask me about it.</span>
+        </p>
+        <div id="skills">
+          <h2>| Skills |</h2>
+          <ul id="skill-list">
+            <li>Frontend: Javascript, React, Redux, jQuery, HTML5, CSS3</li>
+            <li>Backend: Ruby, Rails, PostgreSQL</li>
+          </ul>
+        </div>
+        <p>
+          <span>'Projects' section coming soon!</span>
+          <span>Currently, you can find them on my resume.</span>
+        </p>
+
+
+        <!-- <p id="bio-skills">
           Software developer experienced building responsive full stack
           single page applications using Javascript, React, Redux, jQuery,
           Ruby, Rails, PostgreSQL, HTML5 & CSS3.
-        </p>
-        <p id="bio">
-          After having a succesful career as a contracted musician and private
-          instructor, I decided I needed a change.  I packed my bags and moved
-          to NYC to pursue a career in software development.
-        </p>
+        </p> -->
 
-
-        <p id="about-quote">
-          "Life sucks, you suck, deal with it."
-        </p>
       </section>
 
       <!-- <section id="portfolio">
@@ -89,6 +106,8 @@
         <nav id="contact-links">
           <a href="https://github.com/mm31415"><i class="fa fa-github"></i></a>
           <a href="https://www.linkedin.com/in/mark-martinez-62975b124/"><i class="fa fa-linkedin-square"></i></a>
+          <a href="https://angel.co/mark-martinez-8?public_profile=1"><i class="fa fa-angellist"></i></a>
+
         </nav>
       </section>
     </main>

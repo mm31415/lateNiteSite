@@ -5,7 +5,7 @@ img, section, header {
   padding: 0;
   background: transparent;
   font-family: 'Amatic SC', cursive;
-  font-weight: 700;
+  font-weight: inherit;
   text-decoration: none;
   list-style: none;
   list-style-type: none;
