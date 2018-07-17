@@ -26,3 +26,15 @@
 #music {
   background: green;
 }
+
+.highlight {
+  color: rgba(255, 255, 0, 1.0);
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+/* .unhighlight {
+  color: white;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+} */
