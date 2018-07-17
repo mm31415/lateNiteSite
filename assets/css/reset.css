@@ -4,13 +4,11 @@ img, section, header {
   margin: 0;
   padding: 0;
   background: transparent;
-  font-weight: normal;
-  font-size: 20px;
-  font-family: fantasy;
+  font-family: 'Amatic SC', cursive;
+  font-weight: inherit;
   text-decoration: none;
   list-style: none;
   list-style-type: none;
-  display: block;
   color: inherit;
 }
 
