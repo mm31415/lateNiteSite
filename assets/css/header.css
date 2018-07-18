@@ -10,6 +10,7 @@
   z-index: 1;
   font-family: 'Amatic SC', cursive;
   font-weight: 400;
+  min-width: 700px;
 }
 
 #nav-header h1 {

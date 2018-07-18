@@ -7,8 +7,8 @@
   display: grid;
   grid-template-columns: 330px 330px;
   grid-template-rows: 270px 270px;
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
   /* display: flex; */
 }
 
@@ -18,17 +18,27 @@
 
 #projects-list div {
   font-family: 'Muli', sans-serif;
-  color: red;
+  /* background: rgba(203, 231, 226, 0.0); */
+  color: rgba(255, 255, 255, 0.0);
+  height: 270px;
   position: absolute;
+  top: 0;
   display: flex;
+  visibility: hidden;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
   width: 330px;
-  top: 0;
 }
 
+#projects-list li:hover div {
+  visibility: visible;
+  /* background: rgba(203, 231, 226, 0.7); */
+  color: rgba(255, 255, 255, 1.0);
+  background: rgba(0, 0, 0, 1.0);
+  transition: 1s;
+}
 
 #projects-list img {
   height: 270px;
