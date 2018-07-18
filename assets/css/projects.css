@@ -1,0 +1,67 @@
+#projects {
+  background: rgb(203, 231, 226);
+    font-weight: 700;
+}
+
+#projects-list {
+  display: grid;
+  grid-template-columns: 330px 330px;
+  grid-template-rows: 270px 270px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#projects-list li {
+  position: relative;
+}
+
+#projects-list div {
+  font-family: 'Muli', sans-serif;
+  color: rgba(255, 255, 255, 0.0);
+  height: 270px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 330px;
+}
+
+#projects-list p {
+  margin-bottom: 20px;
+}
+
+#projects-list li:hover div {
+  visibility: visible;
+  color: rgba(255, 255, 255, 1.0);
+  background: rgba(0, 0, 0, 1.0);
+  transition: 1s;
+}
+
+#projects-list img {
+  height: 270px;
+  width: 330px;
+}
+
+#projects-list a {
+  font-size: 32px;
+  text-decoration: underline;
+  font-family: 'Amatic SC', cursive;
+}
+
+#projects-list a:hover {
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 0, 1.0);
+}
+
+#coming-soon {
+  width: 500px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,14 +1,17 @@
-#main #contact {
+#contact {
   background: black;
   height: 100vh;
   min-height: 500px;
   color: white;
   font-weight: 700;
+  position: relative;
 }
 
 #contact-links {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #contact-info {
@@ -17,9 +20,9 @@
 
 #contact-links a {
   font-size: 38px;
-  margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
+  min-height: 56px;
 }
 
 #contact-links a:hover {
@@ -27,4 +30,8 @@
   -webkit-transition: 0.6s;
   transition: 0.6s;
   font-size: 48px;
+}
+
+#copyright {
+  font-family: 'Muli', sans-serif;
 }

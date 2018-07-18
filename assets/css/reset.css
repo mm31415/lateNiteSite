@@ -1,15 +1,21 @@
-html, body, h1, h2, h3, p,
+html, body, h1, h2, p,
 ul, ol, li, div, a,
 img, section, header {
   margin: 0;
   padding: 0;
   background: transparent;
-  font-family: 'Amatic SC', cursive;
+  font-family: inherit;
   font-weight: inherit;
   text-decoration: none;
   list-style: none;
   list-style-type: none;
   color: inherit;
+}
+
+h3 {
+  font-family: 'Muli', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 canvas {

@@ -18,11 +18,20 @@
 #about a {
   font-size: 26px;
   text-decoration: underline;
+  font-family: 'Amatic SC', cursive;
 }
 
 #about a:hover {
   font-weight: 400;
   font-style: italic;
+}
+
+#about p {
+  width: 500px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #skills {
