@@ -12,20 +12,18 @@ section {
 }
 
 #main h1 {
+  font-family: 'Amatic SC', cursive;
   font-size: 128px;
   margin-top: 60px;
 }
 
 #main h2 {
+  font-family: 'Amatic SC', cursive;
   font-size: 48px;
 }
 
-#main p {
-  width: 500px;
+#main h3 {
   font-family: 'Muli', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 20px;
 }
 
 #music {

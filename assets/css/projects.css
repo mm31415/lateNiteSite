@@ -7,10 +7,28 @@
   display: grid;
   grid-template-columns: 330px 330px;
   grid-template-rows: 270px 270px;
-  grid-column-gap: 4px;
-  grid-row-gap: 4px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
   /* display: flex; */
 }
+
+#projects-list li {
+  position: relative;
+}
+
+#projects-list div {
+  font-family: 'Muli', sans-serif;
+  color: red;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 330px;
+  top: 0;
+}
+
 
 #projects-list img {
   height: 270px;
