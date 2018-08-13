@@ -3,7 +3,7 @@ section {
   flex-direction: column;
   align-items: center;
   height: 110vh;
-  min-width: 700px;
+  min-width: 720px;
 }
 
 @media screen and (max-height: 740px) {
